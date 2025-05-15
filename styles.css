@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+
+
+    background: #06215f;
+    background: linear-gradient(141deg, rgba(6, 33, 95, 1) 0%, rgba(57, 7, 80, 1) 96%);
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+.main-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 100vh;
+}
+
+.main-hero h1{
+    font-family: Birthstone;
+    font-size: 50px;
+    letter-spacing: 10px;
+
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main-section{
+    background-color: rgba(255, 255, 255, 0.050);
+    border: 2px solid rgba(255, 255, 255, 0.075);
+    border-radius: 20px;
+    padding: 50px 75px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-section h2{
+    color: white;
+
+    font-family: "Roboto";
+    font-size: 30px;
+
+}
+
+.gap-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.log-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.log-form input{
+    display: flex;
+    justify-content: center;
+
+    width: 15vw;
+    height: 100%;
+    padding: 10px;
+
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.120);
+
+    outline: none;
+    color: white;
+    caret-color: #fff;
+}
+
+.log-btn{
+
+    background: #378af1;
+    background: linear-gradient(100deg, rgba(55, 138, 241, 1) 0%, rgba(51, 82, 247, 1) 83%);
+    color: white;
+
+    padding: 10px;
+    width: 15vw;
+    border: none;
+    border-radius: 10px;
+
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+
+    cursor: pointer;
+    transition: 0.1ms;
+}
+
+.log-btn:hover{
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.120);
+}
+
+.main-section a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+
+a:hover{
+    transform: translateY(-2px);
+}
+
+.log-cop {
+    font-family: 'Roboto';
+    font-size: 12px;
+    text-align: center;
+
+    padding: 5px;
+
+    color: white;
+}
